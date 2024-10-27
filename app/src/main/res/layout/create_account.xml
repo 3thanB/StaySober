@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginpage_background"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".StaySober"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StaySober"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="50sp"
+            android:paddingBottom="20dp"
+            />
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/loginpageicon"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:hint="First Name"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/panel"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/input_firstname"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Surname"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/panel"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/input_surname"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Email"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/panel"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/input_email"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp"
+            android:background="@drawable/panel"
+            android:padding="18dp"
+            android:inputType="text"
+            android:id="@+id/input_password"
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:backgroundTint="#91BDDE"
+            android:textColor="@color/white"
+            android:padding="18dp"
+            android:layout_marginTop="32dp"
+            android:textSize="20sp"
+            android:id="@+id/login_button"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
